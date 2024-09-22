@@ -22,7 +22,9 @@ export default function BookCard({book}: BookCardProps) {
         <img src={book.pictureUrl} alt={book.title} />
         </Link>
         <div className='overlay d-flex align-items-center justify-content-center'>
+        <Link to="/book-detail" state={book}>
           <span className='mr-2'>{book.title}</span>
+          </Link>
         </div>
         </div>
   )
