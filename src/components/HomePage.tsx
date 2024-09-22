@@ -1,4 +1,3 @@
-import React from 'react';
 import BookPage from './BookPage';
 import NavBar from './NavBar';
 

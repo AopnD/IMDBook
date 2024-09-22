@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import app from '../firebaseconfig';
 import { getDatabase, ref, set, push, get } from 'firebase/database';
 import '../style/CreateBookPage.css'

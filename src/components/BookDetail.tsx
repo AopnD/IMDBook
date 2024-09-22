@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { useLocation, Link } from 'react-router-dom';
 import { getDatabase, ref, get, update } from 'firebase/database';
 import '../style/BookDetail.css';
