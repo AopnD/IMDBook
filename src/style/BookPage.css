@@ -1,0 +1,29 @@
+.book-wrap {
+    overflow-x: auto; 
+    padding: 0 10px;  
+    margin: 0;
+    white-space: nowrap; 
+    scroll-behavior: smooth; 
+    -webkit-overflow-scrolling: touch; 
+    scrollbar-width: none; 
+
+}
+
+.book-wrap::-webkit-scrollbar {
+    display: none; 
+}
+
+.author-books {
+    overflow-x: auto; 
+    white-space: nowrap; 
+    scroll-behavior: smooth; 
+    padding: 10px 0; 
+}
+
+.author-books::-webkit-scrollbar {
+    display: none;
+}
+
+.book-slide-bar{
+    margin: 50px;
+}

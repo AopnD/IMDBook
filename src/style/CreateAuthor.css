@@ -1,0 +1,40 @@
+.create-author-container {
+    background-color: #343a40; 
+    color: white;
+    max-width: 600px; 
+    margin: 50px; 
+    padding: 20px; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+.create-author-container input {
+    width: 100%; 
+    padding: 10px;
+    margin-bottom: 15px; 
+    border: 1px solid #007bff; 
+    border-radius: 5px; 
+    background-color: #242424; 
+    color: white; 
+    transition: border-color 0.3s; 
+}
+
+.create-author-container input:focus {
+    border-color: #00aaff; 
+    outline: none; 
+}
+
+.create-author-container button {
+    width: 100%; 
+    padding: 10px;
+    background-color: #007bff; 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+}
+
+.create-author-container button:hover {
+    background-color: #0056b3; 
+}

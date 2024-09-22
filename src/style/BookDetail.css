@@ -1,0 +1,83 @@
+.book-detail {
+    display: flex;
+    align-items: flex-start; /* Align items to the top */
+    background-color: #343a40; 
+    color: white;
+    padding: 20px;
+    border-radius: 8px; 
+    max-width: 800px; 
+    margin: auto; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
+    position: relative; /* Make this the reference for absolute positioning */
+}
+
+.book-detail img {
+    width: 40%; 
+    height: auto; 
+    border-radius: 8px 0 0 8px; 
+}
+
+.book-detail .text {
+    padding: 20px; 
+    width: 60%; 
+}
+
+.book-detail h1 {
+    font-size: 2rem; 
+    margin-bottom: 10px; 
+}
+
+.book-detail p {
+    font-size: 1.2rem; 
+    margin: 5px 0; 
+}
+
+.back-button {
+    margin-top: 20px; 
+    padding: 10px 20px; 
+    background-color: #007bff; 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    text-decoration: none; 
+    transition: background-color 0.3s; 
+}
+
+.back-button:hover {
+    background-color: #0056b3; 
+}
+
+.btn-wrapper {
+    margin-top: 100px;
+    position: relative; /* Position relative for absolute child */
+    flex-grow: 1; /* Allow text to take available space */
+}
+
+/* Styling for the icon toggle button */
+.icon-button {
+    position: absolute ;  /* Position absolute relative to the .book-detail */
+    top: 10px; /* Distance from the top */
+    right: 10px; /* Distance from the right */
+    background: none; /* No background for the button */
+    border: none; /* Remove button borders */
+    cursor: pointer;
+    color: inherit; /* Inherit text color from the icon */
+}
+
+.icon-button i {
+    font-size: 2rem; /* Make the icon larger */
+    transition: color 0.3s ease; /* Smooth color transition */
+}
+
+.icon-button i:hover {
+    color: #ccc; /* Change color on hover */
+}
+
+.icon-button i.text-success {
+    color: green; /* Green when active */
+}
+
+.icon-button i.text-danger {
+    color: red; /* Red when inactive */
+}
